@@ -14,6 +14,7 @@ public enum ConnectionUtil {
 	
 	private ConnectionUtil() {
 		HikariConfig config = new HikariConfig();
+		config.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		config.setJdbcUrl("jdbc:mysql://localhost:3306/webdb");
 		config.setUsername("aaa");
 		config.setPassword("1234");

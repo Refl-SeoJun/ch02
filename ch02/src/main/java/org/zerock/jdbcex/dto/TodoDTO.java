@@ -16,6 +16,7 @@ import lombok.ToString;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 public class TodoDTO {
 
 	private Long tno;

@@ -102,18 +102,7 @@ public class TodoDAO {
 		int count = rs.getInt(1);
 		return count;
 	}
-	//7. 보너스2 (전체 할일 개수)
-	public long bonus2() {
-		return 0;
-	}
-	//8. 보너스3 (오늘의 할일목록)
-	public List<TodoVO> bonus3() {
-		return null;
-	}
-	//9. 보너스4 (전체 할일 중 많았던 할일 순위 랭킹10)
-	public List<String> bonus4(){
-		return null;
-	}
+	
 	
 	public Date getTime() throws SQLException{
 		Connection conn = ConnectionUtil.INSTANCE.getConnection();
